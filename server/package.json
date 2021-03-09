@@ -23,6 +23,7 @@
 	},
 	"homepage": "https://github.com/aravindvnair99/GraphQL-and-Node.js-Hello-World#readme",
 	"dependencies": {
+		"apollo-server": "^2.21.1",
 		"graphql": "^15.5.0"
 	}
 }
