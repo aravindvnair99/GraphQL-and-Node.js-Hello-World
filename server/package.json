@@ -21,5 +21,8 @@
 	"bugs": {
 		"url": "https://github.com/aravindvnair99/GraphQL-and-Node.js-Hello-World/issues"
 	},
-	"homepage": "https://github.com/aravindvnair99/GraphQL-and-Node.js-Hello-World#readme"
+	"homepage": "https://github.com/aravindvnair99/GraphQL-and-Node.js-Hello-World#readme",
+	"dependencies": {
+		"graphql": "^15.5.0"
+	}
 }
