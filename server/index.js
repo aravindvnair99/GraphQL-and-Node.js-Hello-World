@@ -5,3 +5,9 @@ const typeDefs = gql`
 		greeting: String
 	}
 `;
+
+const resolvers = {
+	Query: {
+		greeting: () => "Hello from GraphQL!👋",
+	},
+};
