@@ -1,4 +1,4 @@
-const {gql} = require("apollo-server");
+const {ApolloServer, gql} = require("apollo-server");
 
 const typeDefs = gql`
 	type Query {
@@ -11,3 +11,9 @@ const resolvers = {
 		greeting: () => "Hello from GraphQL!👋",
 	},
 };
+
+const server = new ApolloServer({typeDefs, resolvers});
+
+server
+	.listen({port: 9000})
+	.then(({url}) => console.log(`Server running at ${url}`));
