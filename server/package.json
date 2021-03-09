@@ -1,0 +1,29 @@
+{
+	"name": "graphql-and-node.js-hello-world",
+	"version": "1.0.0",
+	"description": "Getting started with GraphQL and Node.js",
+	"main": "index.js",
+	"scripts": {
+		"test": "nodemon index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/aravindvnair99/GraphQL-and-Node.js-Hello-World.git"
+	},
+	"keywords": [
+		"GraphQL",
+		"Node.js",
+		"Hello World",
+		"API"
+	],
+	"author": "Aravind V. Nair",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/aravindvnair99/GraphQL-and-Node.js-Hello-World/issues"
+	},
+	"homepage": "https://github.com/aravindvnair99/GraphQL-and-Node.js-Hello-World#readme",
+	"dependencies": {
+		"apollo-server": "^2.21.1",
+		"graphql": "^15.5.0"
+	}
+}
